@@ -1,14 +1,9 @@
 import { createStore } from 'vuex'
 
+import character from '@/modules/characters/store/characters'
+
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    character
   }
 })
